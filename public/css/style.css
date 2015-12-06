@@ -1,3 +1,61 @@
-body {
-  background: lightblue;
+.bg {
+	background: yellow;
+	border: 1px black solid;
+ 
+ }
+/*--------- */
+* {
+	margin: 0;
+	padding:0;
 }
+
+nav {
+	float: right;
+	font-family: monospace;
+	margin-right: 10vw;
+}
+
+nav ul li {
+	display: inline;
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+main {
+	width: 80vw;
+	margin-left: 10vw;
+}
+
+article {
+	padding: 3vw;
+
+}
+ img {
+ 	width:200px;
+ 	margin-left: 20px;
+ 	right:0;
+
+ }
+
+ .floatLeft {
+ 	float: left;
+ }
+
+ .floatRight {
+ 	float: right;
+ }
+
+ footer {
+	width: 100vw;
+ 	text-align: center;
+ 	position: fixed;
+ 	bottom: 0;
+ 	background: white;
+	
+ }
+
+
